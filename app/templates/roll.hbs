@@ -1,28 +1,5 @@
 <div class="row">
-    <form class="col s12">
-        <div class="row">
-            <div class="input-field col s12">
-                <input placeholder="Name" id="roll_name" type="text" class="validate">
-                <label for="roll_name">Name of Roll</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="input-field col s6">
-                <input placeholder="Number of dice" id="number_of_dice" type="number" class="validate" value="1">
-                <label for="number_of_dice">Number of Dice</label>
-            </div>
-            <div class="input-field col s6">
-                <input placeholder="Number of sides" id="number_of_sides" type="number" class="validate" value="6">
-                <label for="number_of_sides">Number of Sides</label>
-            </div>
-        </div>
-        <div class="row">
-            <button class="btn waves-effect waves-light" type="submit" name="action">
-                Roll Dice
-                <i class="material-icons right">send</i>
-            </button>
-        </div>
-    </form>
+    {{roll-dice}}
 </div>
 
 {{outlet}}
