@@ -32,6 +32,7 @@
     "ember-data": "~2.14.3",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
+    "ember-localstorage-adapter": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.14.0",
     "ember-welcome-page": "^3.0.0",
@@ -40,5 +41,8 @@
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "esprima-fb": "^15001.1001.0-dev-harmony-fb"
+  }
 }
