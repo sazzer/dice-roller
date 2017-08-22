@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Dice Rolled</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each model as |roll|}}
+        <tr>
+            <td>{{roll.rollName}}</td>
+            <td>{{roll.numberOfDice}}D{{roll.numberOfSides}}</td>
+            <td>{{roll.result}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+
+{{outlet}}
+

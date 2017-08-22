@@ -1,9 +1,9 @@
 <nav>
     <div class="nav-wrapper">
-        <a href="#" class="brand-logo">
+        {{#link-to 'index' tagName="a" class="brand-logo"}}
             <i class="material-icons">filter_6</i>
             Dice Roller
-        </a>
+        {{/link-to}}
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             {{#link-to 'roll' tagName="li"}}
                 <a href="roll">Roll Dice</a>
